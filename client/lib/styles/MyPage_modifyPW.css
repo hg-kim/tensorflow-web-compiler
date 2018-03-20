@@ -1,0 +1,195 @@
+.mofidyPW-div{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.mofidyPW-submenu{
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.mofidyPW-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.mofidyPW-container > a:hover{
+    color:#FA8C32;
+}
+
+.mofidyPW-container{
+    width: 1200px;
+    height: auto;
+    padding-left: 30px;
+    margin : 20px auto 0 auto;
+}
+
+.mofidyPW-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.mofidyPW-panel{
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #eee;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.mofidyPW-img-container{
+    width: 800px;
+    height: auto;
+}
+
+.mofidyPW-img-container > div{
+    margin-left: 50px;
+    width: 400px;
+}
+
+.mofidyPW-header-text-title{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.mofidyPW-header-text-desc{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 16px;
+    color: #525252;
+}
+
+.mofidyPW-img{
+    display: inline;
+    width: 300px;
+    height: 250px;
+}
+
+.mofidyPW-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.mofidyPW-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #222222;
+    margin : 0 25px 0 0;
+    width: 380px;
+    text-align: right;
+}
+
+.mofidyPW-pwd-sub-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 14px;
+    color: #adadad;
+    margin : 0 70px 0 405px;
+    width: auto;
+    text-align: right;
+    color: #C32525 !important;
+}
+
+.mofidyPW-form{
+    width: 1150px;
+    height: auto;
+    margin: 0 !important;
+    border-bottom: 2px solid #eee;
+}
+
+.mofidyPW-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+}
+
+.mofidyPW-btn-container{
+    width: 410px;
+    margin: 25px auto 0 auto;
+}
+
+.mofidyPW-btn-1{
+    background-color: #fa8c32;
+    width: 190px;
+    height: 64px;
+    margin : 0 25px 0 0;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.mofidyPW-btn-1:hover{
+    background-color: #fa9a4b;
+}
+
+.mofidyPW-btn-1:active{
+    background-color: #cc6510;
+}
+
+.mofidyPW-btn-2{
+    background-color: #acacac;
+    width: 190px;
+    height: 64px;
+    color: #FEFEFE;
+    margin : 0;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.mofidyPW-btn-2:hover{
+    background-color: #c3c3c3;
+}
+
+.mofidyPW-btn-2:active{
+    background-color: #a4a4a4;
+}
+
+.mofidyPW-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+  margin-top: 200px;
+}
+
+.modifyPW-row{
+    width: 1150px;
+}
+
+.modifyPW-sub-row{
+    width: 1150px;
+    margin: 0 0 25px 0;
+}

@@ -1,0 +1,108 @@
+<template name="modifyMyInfoDetail">
+    <div class="learningStatus-submenu justify-content-center">
+        <div class="modifyMyInfo-container align-items-center">
+            <a href="learningStatus" class="menu-a submenu-fixing">나의 강의실</a>
+            <a href="modifyMyInfo" class="actived-nav menu-a menu-a-active submenu-fixing">개인정보수정</a>
+            <a href="modifyPW" class=" menu-a submenu-fixing">비밀번호 변경</a>
+        </div>
+    </div>
+    <div class="register-div">
+        <div class="register-container row margin-0">
+            <div class="register-panel row margin-0 justify-content-center">
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <span>*표시가 있는 항목은 반드시 입력해주세요.</span>
+                            <div class="">
+                                <p class="">이름</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="name" value="{{getUser}}" class="modifyMyInfoDetail-username">
+                            </div>
+                            <div class="register-gender-container align-items-center">
+                                <p class="regsiter-gender-postion">성별</p>
+                                <span class="force-input regsiter-gender-force-postion">*</span>
+                                {{#if getGender}}
+                                    <input type="radio" name="modifyMyInfoDetail-gender" value="남성" id="c1" class="register-radio-1 modifyMyInfoDetail-gender" checked><label for="c1">남성</label>
+                                    <input type="radio" name="modifyMyInfoDetail-gender" value="여성" id="c2" class="register-radio-2 modifyMyInfoDetail-gender"><label for="c2">여성</label>
+                                {{else}}
+                                    <input type="radio" name="modifyMyInfoDetail-gender" value="남성" id="c1" class="register-radio-1 modifyMyInfoDetail-gender"><label for="c1">남성</label>
+                                    <input type="radio" name="modifyMyInfoDetail-gender" value="여성" id="c2" class="register-radio-2 modifyMyInfoDetail-gender" checked><label for="c2">여성</label>
+                                {{/if}}
+                            </div>
+                            <div class="">
+                                <p class="">생년월일</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="birth" value="{{getBirth}}" id="sandbox-container" class="modifyMyInfoDetail-birth">
+                            </div>
+                            <div class="">
+                                <p class="">휴대전화번호</p>
+                                <span class="force-input">*</span>
+                                <select class="findID-hp-1  select-3" name="findID-hp-1">
+                                    <option value="010" {{getPhone1 "010"}}>010</option>
+                                    <option value="011" {{getPhone1 "011"}}>011</option>
+                                    <option value="016" {{getPhone1 "016"}}>016</option>
+                                    <option value="017" {{getPhone1 "017"}}>017</option>
+                                    <option value="018" {{getPhone1 "018"}}>018</option>
+                                    <option value="019" {{getPhone1 "019"}}>019</option>
+                                </select>
+                                <p class="findID-date-text ml-10px">-</p>
+                                <input type="text" name="" value="{{getPhone2}}" class="findID-hp-2 select-3">
+                                <p class="findID-date-text ml-10px">-</p>
+                                <input type="text" name="" value="{{getPhone3}}" class="findID-hp-3 select-3">
+                            </div>
+                            <div class="register-gender-container align-items-center mb-50px">
+                                <p class="regsiter-gender-postion">휴대전화 수신여부</p>
+                                <span class="force-input regsiter-gender-force-postion">*</span>
+                                {{#if getPhoneAd}}
+                                    <input type="radio" name="hp-ad modifyMyInfoDetail-hp-ad" value="예" id="c3" class="register-radio-1 modifyMyInfoDetail-hp-ad" checked><label for="c3">예</label>
+                                    <input type="radio" name="hp-ad modifyMyInfoDetail-hp-ad" value="아니오" id="c4" class="register-radio-2 modifyMyInfoDetail-hp-ad"><label for="c4">아니오</label>
+                                {{else}}
+                                    <input type="radio" name="hp-ad modifyMyInfoDetail-hp-ad" value="예" id="c3" class="register-radio-1 modifyMyInfoDetail-hp-ad"><label for="c3">예</label>
+                                    <input type="radio" name="hp-ad modifyMyInfoDetail-hp-ad" value="아니오" id="c4" class="register-radio-2 modifyMyInfoDetail-hp-ad" checked><label for="c4">아니오</label>
+                                {{/if}}
+                                <br />
+                                <p class="register-desc-2">※수신거부 설정시에도 학습관련 내용은 수신될 수 있습니다.</p>
+                            </div>
+                            <div class="">
+                                <p class="interest-p">관심분야 1순위</p>
+                                <select class="interest-1" name="interest-1">
+                                    <option value="기계" {{getInt1 "기계"}}>기계</option>
+                                    <option value="전기전자" {{getInt1 "전기전자"}}>전기전자</option>
+                                    <option value="메카트로닉스" {{getInt1 "메카트로닉스"}}>메카트로닉스</option>
+                                    <option value="정보통신" {{getInt1 "정보통신"}}>정보통신</option>
+                                    <option value="디자인콘텐츠" {{getInt1 "디자인콘텐츠"}}>디자인콘텐츠</option>
+                                    <option value="건축설계" {{getInt1 "건축설계"}}>건축설계</option>
+                                    <option value="재료" {{getInt1 "재료"}}>재료</option>
+                                    <option value="화학" {{getInt1 "화학"}}>화학</option>
+                                    <option value="직업기초" {{getInt1 "직업기초"}}>직업기초</option>
+                                    <option value="공통과정" {{getInt1 "공통과정"}}>공통과정</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <p class="interest-p">관심분야 2순위</p>
+                                <select class="interest-2" name="interest-2">
+                                    <option value="기계" {{getInt2 "기계"}}>기계</option>
+                                    <option value="전기전자" {{getInt2 "전기전자"}}>전기전자</option>
+                                    <option value="메카트로닉스" {{getInt2 "메카트로닉스"}}>메카트로닉스</option>
+                                    <option value="정보통신" {{getInt2 "정보통신"}}>정보통신</option>
+                                    <option value="디자인콘텐츠" {{getInt2 "디자인콘텐츠"}}>디자인콘텐츠</option>
+                                    <option value="건축설계" {{getInt2 "건축설계"}}>건축설계</option>
+                                    <option value="재료" {{getInt2 "재료"}}>재료</option>
+                                    <option value="화학" {{getInt2 "화학"}}>화학</option>
+                                    <option value="직업기초" {{getInt2 "직업기초"}}>직업기초</option>
+                                    <option value="공통과정" {{getInt2 "공통과정"}}>공통과정</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-btn-container">
+                        <input type="button" name="" value="수정" class="register-btn p-0">
+                        <input type="button" name="" value="취소" class="cancle-btn p-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

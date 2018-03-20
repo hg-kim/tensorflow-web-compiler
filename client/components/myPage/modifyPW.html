@@ -1,0 +1,40 @@
+<template name="modifyPW">
+    <div class="mofidyPW-div">
+        <div class="learningStatus-submenu justify-content-center">
+            <div class="modifyMyInfo-container align-items-center">
+                <a href="learningStatus" class="menu-a submenu-fixing">나의 강의실</a>
+                <a href="modifyMyInfo" class="menu-a submenu-fixing">개인정보수정</a>
+                <a href="modifyPW" class="actived-nav menu-a menu-a-active submenu-fixing">비밀번호 변경</a>
+            </div>
+        </div>
+        <div class="mofidyPW-panel justify-content-center">
+            <div class="row justify-content-center mofidyPW-form">
+                <div class="row m-0 align-items-center modifyPW-row">
+                    <p class="mofidyPW-pwd-text">현재 비밀번호</p>
+                    <input type="password" name="" value="" class="mofidyPW-pwd cur-pw">
+                </div>
+                <div class="row align-items-center modifyPW-sub-row">
+                    <p class="mofidyPW-pwd-sub-text">※현재 비밀번호를 입력하세요.</p>
+                </div>
+                <div class="row m-0 align-items-center modifyPW-row">
+                    <p class="mofidyPW-pwd-text ">새 비밀번호</p>
+                    <input type="password" name="" value="" class="mofidyPW-pwd new-pw-1">
+                </div>
+                <div class="row align-items-center modifyPW-sub-row">
+                    <p class="mofidyPW-pwd-sub-text">※비밀번호는 영문자, 숫자 조합으로 8~15자리로 입력해주세요. 특수문자 가능</p>
+                </div>
+                <div class="row m-0 align-items-center modifyPW-row">
+                    <p class="mofidyPW-pwd-text">새 비밀번호 확인</p>
+                    <input type="password" name="" value="" class="mofidyPW-pwd new-pw-2">
+                </div>
+                <div class="row align-items-center modifyPW-sub-row">
+                    <p class="mofidyPW-pwd-sub-text">※새 비밀번호를 다시 한번 입력해주세요.</p>
+                </div>
+            </div>
+            <div class="mofidyPW-btn-container">
+                <button type="button" name="button" class="mofidyPW-btn-1">확인</button>
+                <button type="button" name="button" class="mofidyPW-btn-2">취소</button>
+            </div>
+        </div>
+    </div>
+</template>

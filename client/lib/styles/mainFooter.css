@@ -1,0 +1,22 @@
+.footer-container{
+  width: 1200px;
+  height: 103px;
+}
+
+.footer-border{
+  background-color: #d3d3d3;
+  border-top: 2px solid #c8c8c8;
+}
+
+.footer-img{
+  height: 47px;
+  width: 144px;
+  margin: 0 50px 0 38px;
+}
+
+.footer-desc{
+  height: 72px;
+  width: 997px;
+  font-family: "NanumSquareR";
+  font-size: 16px;
+}

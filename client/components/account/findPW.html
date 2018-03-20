@@ -1,0 +1,71 @@
+<template name="findPW">
+    <div class="findPW-div">
+        <div class="learningStatus-submenu justify-content-center">
+            <div class="modifyMyInfo-container align-items-center">
+                <a href="findID" class="menu-a submenu-fixing">아이디 찾기</a>
+                <a href="findPW" class="actived-nav menu-a menu-a-active submenu-fixing">비밀번호 찾기</a>
+            </div>
+        </div>
+        <div class="findPW-panel row justify-content-center">
+            <div class="row justify-content-center padding-0 findPW-img-container align-items-center">
+                <img src="/images/myPage/modifyMyInfo/login2.png" alt="" class="findPW-img float-left">
+                <div class="float-right">
+                    <p class="findPW-header-text-title">개인정보 확인</p>
+                    <p class="findPW-header-text-desc">개인정보 확인을 통해 학습자의 비밀번호를 찾을 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="row findPW-form">
+                <div class="row m-0 w-100 align-items-center justify-content-center">
+                    <div class="findPW-row">
+                        <p class="findPW-pwd-text">아이디</p>
+                        <input type="text" name="" value="" class="findPW-pwd findPW-id">
+                    </div>
+                </div>
+                <div class="row m-0 w-100 align-items-center justify-content-center">
+                    <div class="findPW-row p-0">
+                        <p class="findPW-pwd-text">이름</p>
+                        <input type="text" name="" value="" class="findPW-pwd findPW-username">
+                    </div>
+                </div>
+                <div class="row m-0 w-100 align-items-center justify-content-center">
+                    <div class="findPW-row">
+                        <p class="findPW-pwd-text">생년월일</p>
+                        <input type="text" name="birth" value="" class="findID-pwd findID-birth" id="sandbox-container">
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0 justify-content-center findPW-btn-container align-items-center">
+                <button type="button" name="button" class="findPW-btn">비밀번호 찾기</button>
+            </div>
+        </div>
+        <div class="findID-modal row m-0 justify-content-center align-items-center fixed-top">
+            <div class="findID-modal-content">
+                <div class="findID-modal-header row m-0 align-items-center">
+                    <p class="findID-modal-title">비밀번호 변경</p>
+                    <button type="button" name="button" class="findID-modal-close">X</button>
+                </div>
+                <div class="findPW-modal-body row m-0 align-items-center justify-content-center">
+                    <div class="findID-modal-desc findPW-modal-desc">
+                        <div class="row m-0 align-items-center modifyPW-row">
+                            <p class="findPW-pwd-text-modal ">새 비밀번호</p>
+                            <input type="password" name="" value="" class="mofidyPW-pwd new-pw-1">
+                        </div>
+                        <div class="row align-items-center modifyPW-sub-row">
+                            <p class="findPW-pwd-sub-text-modal font-13">※비밀번호는 영문자, 숫자, 특수문자 조합으로 8~15자리로 입력해주세요.</p>
+                        </div>
+                        <div class="row m-0 align-items-center modifyPW-row">
+                            <p class="findPW-pwd-text-modal">새 비밀번호 확인</p>
+                            <input type="password" name="" value="" class="mofidyPW-pwd new-pw-2">
+                        </div>
+                        <div class="row align-items-center modifyPW-sub-row mb-0">
+                            <p class="findPW-pwd-sub-text-modal  font-13">※새 비밀번호를 다시 한번 입력해주세요.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="findPW-modal-footer row m-0 justify-content-center">
+                    <button type="button" name="button"  class="findID-modal-submit m-0">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

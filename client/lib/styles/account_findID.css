@@ -1,0 +1,307 @@
+.findID-div{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.findID-submenu{
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.findID-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.findID-container > a:hover{
+    color:#FA8C32;
+}
+
+.findID-container{
+    width: 1200px;
+    height: auto;
+    padding-left: 30px;
+    margin : 20px auto 0 auto;
+}
+
+.findID-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.findID-panel{
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #eee;
+    padding: 25px;
+    margin: 25px auto 25px auto !important;
+}
+
+.findID-img-container{
+    width: 1140px;
+    height: auto;
+}
+
+.findID-img-container > div{
+    margin-left: 25px;
+    width: 400px;
+}
+
+.findID-header-text-title{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+}
+
+.findID-header-text-desc{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 14px;
+    color: #525252;
+}
+
+.findID-img{
+    display: inline;
+    width: 300px;
+    height: 250px;
+}
+
+.findID-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.findID-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #222222;
+    margin : 0;
+    width: 134px;
+    display: inline-block;
+}
+
+.findID-date-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 14px;
+    color: #222222;
+    margin : 0 8px 0 8px;
+    display: inline-block;
+    width: auto  !important;
+}
+
+.findID-form{
+    width: 1140px;
+    height: auto;
+    margin: 25px 0 25px 0;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.findID-row{
+    width: 574px;
+    padding: 25px 0 25px 0;
+}
+
+.findID-row-date{
+    padding: 20px 0 20px 17px;
+}
+
+.findID-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+}
+
+.findID-year{
+    width: 138px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findID-month{
+    width: 102px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findID-day{
+    width: 92px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findID-hp-1{
+    width: 138px;
+    height: 50px !important;
+    border: 2px solid #eee;
+    padding: 4px 0 0 18px !important;
+    display: inline-block !important;
+    font-family: "NanumSquareR";
+    src: url(resources/fonts/NanumSquareR.ttf) format("truetype");
+    font-size: 16px !important;
+}
+
+.findID-hp-2{
+    width: 104px !important;
+    height: 50px !important;
+    border: 2px solid #eee;
+}
+
+.findID-hp-3{
+    width: 104px !important;
+    height: 50px !important;
+    border: 2px solid #eee;
+}
+
+.ml-10px{
+    margin-left: 10px !important;
+}
+
+.select-3{
+    width: 110px !important;
+}
+
+.select-3-v2{
+    width: 115px !important;
+}
+
+.findID-btn-container{
+    width: 800px;
+    padding: 0;
+}
+
+.findID-btn{
+    background-color: #fa8c32;
+    width: 300px;
+    height: 60px;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.findID-btn:hover{
+    background-color: #fa9a4b;
+}
+
+.findID-btn:active{
+    background-color: #cc6510;
+}
+
+.findID-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+  margin-top: 200px;
+}
+
+.findID-modal{
+    width: 100vw;
+    height: 100vh;
+    min-width: 1200px;
+    top : 0;
+}
+
+.findID-modal-content{
+    width: 630px;
+    height: 384px;
+    background-color: white;
+    border: 2px solid #325682;
+}
+
+.findID-modal-header{
+    width: 626px;;
+    height: 60px;
+    background-color: #325682;
+}
+
+.findID-modal-body{
+    width: 626px;
+    height: 208px;
+    padding: 25px;
+}
+
+.findID-modal-footer{
+    width: 100%;
+    height: 114px;
+}
+
+.findID-modal-title{
+    color: #FFFFFF;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 22px;
+    height: auto;
+    width: 524px;
+    margin: 0 0 0 32px;
+}
+
+.findID-modal-close{
+    color: #FFFFFF;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 28px;
+    height: 60px;
+    width: 70px;
+    border: none;
+    padding: 0;
+    background-color: #325682;
+}
+
+.findID-modal-close:hover{
+    background-color: #264161;
+}
+
+.findID-modal-desc{
+    color: #222222;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    height: auto;
+}
+
+.findID-modal-submit{
+    color: #FFFFFF;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    height: 64px;
+    width: 270px;
+    border: none;
+    padding: 0;
+    margin-top: 25px;
+    background-color: #325682;
+}
+
+.findID-modal-submit:hover{
+    background-color: #264161;
+}

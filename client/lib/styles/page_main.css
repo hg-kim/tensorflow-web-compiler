@@ -1,0 +1,91 @@
+.menuBackground {
+    text-align: right;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+/* CSS declarations go here */
+.bg-transparent{
+    background-color: transparent;
+}
+
+.border-solid-1{
+    border: 1px solid;
+}
+
+.border-white{
+    border-color: white;
+}
+
+.border-grey{
+    border-color: grey;
+}
+
+.panel-small{
+    height:150px;
+}
+
+.panel-large{
+    height:400px;
+}
+
+.height-50px{
+    height:50px;
+}
+
+.height-80px{
+    height:80px;
+}
+
+.height-auto{
+    height:auto;
+}
+
+.main-content-item{
+    height:200px;
+}
+
+.border-bottom-solid-1{
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eee;
+}
+
+.container{
+    background-color: #eee;
+}
+
+.noti-main{
+    background-color: rgb(41, 110, 191);
+}
+
+.noti-main-2{
+    background-color: #faa345;
+}
+
+.noti-main-3{
+    background-color: #20bf42;
+}
+
+.noti-sub{
+    background-color: rgb(41, 110, 191);
+}
+
+.noti-item-padding{
+    border-color: #eee !important;
+    padding: 0 16px 0 0 !important;
+}
+
+.footer-sm{
+    height: 80px;
+}
+
+.footer-sm > .row > .col > img{
+    width: 75%;
+    height: 75%;
+}
+
+.footer-lg{
+    height: 250px;
+}
+

@@ -1,0 +1,170 @@
+.classList-div{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.classList-submenu{
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.classList-container > span{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.class-result{
+    padding: 0 25px 0 25px;
+}
+
+.classList-container-disabled{
+    color: #9fb3cb !important;
+}
+
+
+.classList-container{
+    width: 1200px;
+    height: auto;
+    padding-left: 30px;
+    margin : 0 auto 0 auto;
+}
+
+.classList-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+    margin: 70px 0 28px 34px;
+}
+
+.classList-panel{
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #eee;
+    margin-top: 25px;
+    margin: 25px auto 0 auto;
+}
+
+.classList-search{
+    width: 850px;
+    height: 100px;
+}
+
+.classList-search > input{
+    width: 700px;
+    height: 50px;
+    border: 2px solid #a3a3a3;
+}
+
+.classList-search > button{
+    width: 140px;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    padding: 0;
+    background-color: #a3a3a3;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.classList-item{
+    width: 1140px;
+    height: 237px;
+    padding: 25px;
+    margin: 0 0 25px 0;
+    border: 2px solid #d9d9d9;
+}
+
+.classList-item-img{
+    width: 270px;
+    height: 187px;
+}
+
+.classList-item-text{
+    width: 778px;
+    height: 254px;
+    margin: 0 0 0 10px;
+}
+
+.classList-item-title > p{
+    font-family: "GyeonggiTitleVOTF_Bold";
+    src: url("/resources/fonts/GyeonggiTitleVOTF_Bold.ttf") format("truetype");
+    font-size: 22px;
+    color: #4A4A4A;
+    margin: 0 0 25px 0;
+    width: 778px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.classList-item-desc > p{
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 14px;
+    color: #4A4A4A;
+    margin: 0;
+    width: 778px;
+    min-height: 66px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3 ;
+}
+
+.classList-item-ref{
+    height: 70px;
+    margin: 0;
+}
+
+.classList-item-ref > p{
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 14px;
+    color: #4A4A4A;
+    margin: 0;
+    display: inline-block;
+    width: 808px;
+}
+
+.classList-item-ref > button{
+    height: 70px;
+    width: 200px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf");
+    font-size: 24px;
+    background-color: #ebebeb;
+    border: 2px solid #d9d9d9;
+    border-radius: none;
+    padding: 0;
+    float:right;
+}
+
+.classList-item-ref > button:hover{
+  background-color: #bfd7e8;
+  border: 2px solid #b2cbdc;
+}
+
+.classList-item-ref > button:active{
+  background-color: #619bc4;
+  border: 2px solid #5a90be;
+  color: #ffffff;
+}

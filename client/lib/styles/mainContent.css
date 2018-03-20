@@ -1,0 +1,338 @@
+/*---------------배너----------------*/
+.index-img-container{
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+  margin: auto !important;
+  background: url("/images/index/main_bn_bg.png");
+  border-top: 2px solid #b8b8b8;
+  border-bottom: 2px solid #b8b8b8;
+}
+
+.index-img{
+  height: 400px;
+  width: 1200px;
+}
+
+.index-img-content{
+    width: 1000px;
+  position: relative;
+  top:82px;
+  left:116px;
+  height: 166px;
+}
+
+.index-img-btn{
+  height: 90px;
+  width: 328px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 40px;
+  background-color: transparent;
+  border:none;
+  background-image: url(images/index/bt5_nom.png);
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.index-img-btn:hover{
+  background-image: url(images/index/bt5_over.png);
+}
+
+
+.index-img-btn:active{
+  background-image: url(images/index/bt5_on.png);
+}
+
+
+.index-img-content > p {
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 40px;
+  color : white;
+}
+
+.index-img-navigation{
+  position: relative;
+  top:24px;
+  left:50px;
+  height: 16px;
+}
+
+.index-img-navi-btn{
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  opacity: 0.6;
+  border:none;
+  border-radius: 50%;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.slideshow-container {
+  max-width: 1200px;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides{
+    width: 1200px;
+    height: 400px;
+}
+
+.mySlides > img{
+    width: 1200px;
+    height: 400px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
+/*---------------강의실----------------*/
+.margin-0{
+  margin: 0 !important;
+}
+
+.index-classroom-left{
+  height: 250px;
+  width: 558px;
+  margin: 0 12px 0 0;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+}
+
+.index-classroom-right{
+  height: 250px;
+  width: 558px;
+  margin: 0 0 0 12px;
+  background-color: #ffffff;
+  border: 2px solid #e8e8e8;
+}
+
+.index-container{
+  height: auto;
+  margin: auto;
+  width: 1200px;
+  padding: 0 30px 0 30px;
+}
+
+.index-course-title{
+  width: 1160px;
+  font-size: 24px;
+  color: #4a4a4a;
+  font-family: "NanumSquareR";
+  src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+  font-weight: bold;
+  margin: 25px 0 25px 0;
+}
+
+.index-classroom-content{
+  height: 246px;
+  width: 554px;
+  padding: 35px;
+}
+
+.index-classroom-img{
+  display: block;
+  margin: auto;
+}
+
+.index-classroom-text{
+  height: auto;
+  width: 265px;
+  display: inline-block;
+}
+
+.index-classroom-btn{
+  height: 56px;
+  width: 160px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 20px;
+  background-color: #ebebeb;
+  border: 2px solid #d9d9d9;
+  border-radius: none;
+}
+
+.index-btn{
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  background-color: #ebebeb;
+  border: 2px solid #d9d9d9;
+  border-radius: none;
+}
+
+.index-btn:hover{
+  background-color: #bfd7e8;
+  border: 2px solid #b2cbdc;
+}
+
+.index-btn:active{
+  background-color: #619bc4;
+  border: 2px solid #5a90be;
+  color: #ffffff;
+}
+
+.index-classroom-title{
+  height: 36px;
+  font-size: 22px;
+  color: #4a4a4a;
+  font-family: "GyeonggiTitleVOTF_Bold";
+  src: url("/resources/fonts/GyeonggiTitleVOTF_Bold.ttf") format("truetype");
+  margin: 5px 0 14px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.index-classroom-desc{
+  height: 45px;
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: "NanumSquareR";
+  src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+  margin: 0 0 14px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2 ;
+}
+
+.index-classroom-img-container{
+    width: 185px;
+    height: 175px;
+    display: inline-block;
+}
+
+
+/*---------------코드 테스트----------------*/
+
+.code-test-container{
+  margin: auto !important;
+  height: auto;
+  width: 1200px;
+  padding: 0 30px 0 30px;
+}
+
+.code-test-block{
+  background-color: white;
+  height: 240px;
+  width: 274px;
+  border: 2px solid #e8e8e8;
+  margin: 0 10px 10px 0;
+  display: inline-block;
+}
+
+.code-test-header{
+  margin: 24px auto 8px auto;
+  width: 170px;
+  height: 40px;
+}
+
+.code-test-desc{
+ width: 170px;
+ height: auto;
+ margin: auto;
+}
+
+.code-test-desc > p{
+  height: 63px;
+  font-size: 15px;
+  color: #4a4a4a;
+  font-family: "NanumSquareR";
+  src: url("/resources/fonts/NanumSquareR.ttf");
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3 ;
+}
+
+.code-test-title{
+  height: 40px;
+  font-size: 22px;
+  width: 124px;
+  color: #4a4a4a;
+  font-family: "GyeonggiTitleVOTF_Bold";
+  src: url("/resources/fonts/GyeonggiTitleVOTF_Bold.ttf");
+  margin: 4px 0 0 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.code-test-img{
+  height: 40px;
+  width: 40px;
+}
+
+.code-test-btn{
+  height: 56px;
+  width: 170px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf");
+  font-size: 20px;
+  background-color: #ebebeb;
+  border: 2px solid #d9d9d9;
+  border-radius: none;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.code-test-inner-container{
+    width: 1140px;
+}
+
+.actived-nav{
+    color: #FA8C32 !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+input{
+    padding-left: 18px !important;
+    padding-top: 2px !important;
+}
+
+input[type="text"]:focus{
+    border: 2px solid #f47d1c;
+}
+
+input[type="password"]:focus{
+    border: 2px solid #f47d1c;
+}
+
+.menu-a{
+    display: inline-block;
+    height: 76px;
+    padding: 21px 25px 23px 25px !important;
+    width: auto;
+    margin: 0 !important;
+}
+
+.menu-a-active{
+    background-color: #264161;
+}
+
+.submenu-fixing{
+    font-size: 22px !important;
+}

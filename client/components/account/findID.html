@@ -1,0 +1,67 @@
+<template name="findID">
+    <div class="findID-div">
+        <div class="learningStatus-submenu justify-content-center">
+            <div class="modifyMyInfo-container align-items-center">
+                <a href="findID" class="menu-a  menu-a-active actived-nav submenu-fixing">아이디 찾기</a>
+                <a href="findPW" class=" menu-a submenu-fixing">비밀번호 찾기</a>
+            </div>
+        </div>
+        <div class="findID-panel row justify-content-center">
+            <div class="row justify-content-center padding-0 findID-img-container align-items-center">
+                <img src="/images/myPage/modifyMyInfo/login2.png" alt="" class="findID-img float-left">
+                <div class="float-right">
+                    <p class="findID-header-text-title">개인정보 확인</p>
+                    <p class="findID-header-text-desc">개인정보 확인을 통해 학습자의 아이디를 찾을 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="row findID-form">
+                <div class="row m-0 w-100 align-items-center justify-content-center">
+                    <div class="findID-row">
+                        <p class="findID-pwd-text">이름</p>
+                        <input type="text" name="" value="" class="findID-pwd findID-name">
+                    </div>
+                </div>
+                <div class="row m-0 w-100 align-items-center justify-content-center">
+                    <div class="findID-row p-0">
+                        <p class="findID-pwd-text">생년월일</p>
+                        <input type="text" name="birth" value="" class="findID-pwd findID-birth" id="sandbox-container">
+                    </div>
+                </div>
+                <div class="row m-0 w-100 align-items-center justify-content-center">
+                    <div class="findID-row">
+                        <p class="findID-pwd-text">핸드폰번호</p>
+                        <select class="findID-hp-1 select-3-v2" name="findID-hp-1">
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="016">016</option>
+                            <option value="017">017</option>
+                            <option value="018">018</option>
+                            <option value="019">019</option>
+                        </select>
+                        <p class="findID-date-text">-</p>
+                        <input type="text" name="" value="" class="findID-hp-2 select-3-v2">
+                        <p class="findID-date-text">-</p>
+                        <input type="text" name="" value="" class="findID-hp-3 select-3-v2">
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0 justify-content-center findID-btn-container align-items-center">
+                <button type="button" name="button" class="findID-btn">아이디 찾기</button>
+            </div>
+        </div>
+        <div class="findID-modal row m-0 justify-content-center align-items-center fixed-top">
+            <div class="findID-modal-content">
+                <div class="findID-modal-header row m-0 align-items-center">
+                    <p class="findID-modal-title">확인</p>
+                    <button type="button" name="button" class="findID-modal-close">X</button>
+                </div>
+                <div class="findID-modal-body row m-0 align-items-center justify-content-center">
+                    <p class="findID-modal-desc"></p>
+                </div>
+                <div class="findID-modal-footer row m-0 justify-content-center">
+                    <button type="button" name="button"  class="findID-modal-submit">확인</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

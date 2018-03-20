@@ -1,0 +1,251 @@
+.findPW-div{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.findPW-submenu{
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.findPW-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.findPW-container > a:hover{
+    color:#FA8C32;
+}
+
+.findPW-container{
+    width: 1200px;
+    height: auto;
+    padding-left: 30px;
+    margin : 20px auto 0 auto;
+}
+
+.findPW-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.findPW-panel{
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #eee;
+    padding: 25px;
+    margin: 25px auto 25px auto !important;
+}
+
+.findPW-img-container{
+    width: 1140px;
+    height: auto;
+}
+
+.findPW-img-container > div{
+    margin-left: 25px;
+    width: 400px;
+}
+
+.findPW-header-text-title{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+}
+
+.findPW-header-text-desc{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 14px;
+    color: #525252;
+}
+
+.findPW-img{
+    display: inline;
+    width: 300px;
+    height: 250px;
+}
+
+.findPW-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.findPW-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #222222;
+    margin : 0;
+    width: 134px;
+    display: inline-block;
+}
+
+.findPW-date-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 14px;
+    color: #222222;
+    margin : 0 8px 0 8px;
+    display: inline-block;
+}
+
+.findPW-form{
+    width: 1140px;
+    height: auto;
+    margin: 25px 0 25px 0;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.findPW-row{
+    width: 574px;
+    padding: 25px 0 25px 0;
+}
+
+.findPW-row-date{
+    padding: 20px 0 20px 17px;
+}
+
+.findPW-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+}
+
+.findPW-email-1{
+    width: 184px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-email-2{
+    width: 208px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-year{
+    width: 138px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-month{
+    width: 104px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-day{
+    width: 92px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-hp-1{
+    width: 138px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-hp-2{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #eee;
+}
+
+.findPW-btn-container{
+    width: 800px;
+}
+
+.findPW-btn{
+    background-color: #fa8c32;
+    width: 300px;
+    height: 60px;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.findPW-btn:hover{
+    background-color: #fa9a4b;
+}
+
+.findPW-btn:active{
+    background-color: #cc6510;
+}
+.findPW-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+  margin-top: 200px;
+}
+
+.findPW-pwd-text-modal {
+    font-family: "NanumSquareB";
+    src: url(resources/fonts/NanumSquareB.ttf) format("truetype");
+    font-size: 22px;
+    color: #222222;
+    margin: 0 25px 0 0;
+    width: 160px;
+    text-align: right;
+}
+
+.findPW-pwd-sub-text-modal {
+    font-family: "NanumSquareB";
+    src: url(resources/fonts/NanumSquareB.ttf) format("truetype");
+    font-size: 14px;
+    color: #adadad;
+    margin: 0 0 0 200px;
+    width: auto;
+    text-align: right;
+    color: #C32525 !important;
+}
+
+.findPW-modal-desc > div{
+    width: 606px;
+}
+
+.findPW-modal-body{
+    width: 626px;
+    height: 238px;
+    padding: 25px;
+}
+
+.font-13{
+    font-size: 13px !important;
+}
+
+.findPW-modal-footer{
+    width: 100%;
+    height: auto !important;
+}

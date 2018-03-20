@@ -1,0 +1,429 @@
+.register-container{
+    width: 1200px;
+    height: auto;
+}
+
+.register-div{
+    width: 1200px;
+    margin: 25px auto 0 auto;
+}
+
+.register-title{
+    margin : 20px 0 20px 34px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.register-title > *{
+    display: inline-block;
+}
+
+.register-title > span{
+    width: 348px;
+    height: auto;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 20px;
+    color: #0078E4;
+    margin-left: 26px;
+}
+
+.register-panel{
+    width: 1200px;
+    height: auto;
+    min-width: 540px;
+    background: white;
+    border: 2px solid #eee;
+    padding: 25px;
+}
+
+.register-header{
+    width: 1100px;
+    height: 400px;
+    padding: 24px;
+}
+
+.register-img{
+    height: 315px;
+    width: 350px;
+    margin-right: 25px;
+}
+
+.register-desc{
+  width: 600px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 14px;
+  color: #525252;
+  margin: 0 0 0 380px !important;
+}
+
+.register-body{
+    width: 1140px;
+}
+
+.register-body-content{
+    width: 1140px;
+    height: auto;
+}
+
+.padding-0{
+    padding : 0 !important;
+}
+
+.register-input-container{
+    width:1140px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eee;
+}
+
+.register-input-container > span{
+    margin-left: 380px;
+    font-size: 14px;
+    color: #0078E4;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+}
+
+.register-input-container > div > p{
+    width: 325px;
+    text-align: right;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #222222;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.mb-50px{
+    margin-bottom: 50px !important;
+}
+
+.register-desc{
+    width: auto !important;
+    font-size: 14px !important;
+    color: #C32525 !important;
+}
+
+.register-desc-2{
+    width: auto !important;
+    font-size: 14px !important;
+    color: #C32525 !important;
+    margin: 0 0 0 380px !important;
+}
+
+.register-desc-3{
+    width: auto !important;
+    font-size: 20px !important;
+    color: #C32525 !important;
+    margin: 30px 0 0 180px !important;
+}
+
+
+.register-input-container > div > input[type="text"]{
+    width: 408px;
+    height: 50px;
+    padding: 4px 0 0 18px;
+    border: 2px solid #bfbfbf;
+    display: inline-block;
+}
+
+.register-input-container > div > input[type="text"]:focus{
+    border: 2px solid #f47d1c;
+}
+
+.register-input-container > div > input[type="password"]{
+    width: 408px;
+    height: 50px;
+    padding: 4px 0 0 18px;
+    border: 2px solid #bfbfbf;
+    display: inline-block;
+}
+
+.register-input-container > div > input[type="password"]:focus{
+    border: 2px solid #f47d1c;
+}
+
+.register-radio-1{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    position: relative;
+    top: 1px;
+}
+
+.register-radio-2{
+    width: 25px;
+    height: 25px;
+    margin: 0 0 0 25px;
+    position: relative;
+    top: 1px;
+}
+
+.regsiter-gender-postion{
+    position: relative;
+    top: -4px !important;
+}
+
+.regsiter-gender-force-postion{
+    position: relative;
+    top: 0px !important;
+}
+
+.register-input-container > div > label{
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 16px;
+    color: #525252;
+    margin: 0 0 0 12px;
+    position: relative;
+    top: -6px;
+}
+
+.register-gender-container{
+    padding-top: 8px;
+    margin: 0 0 25px 0;
+    height: 50px;
+}
+
+.checkDuplicated-btn{
+    background-color: #b3b3b3;
+    width: 170px;
+    height: 50px;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    color: white;
+    margin-right: 30px;
+}
+
+.checkDuplicated-btn:active{
+    background-color: #a2a2a2;
+}
+
+.register-input-container > div{
+    margin-bottom: 25px;
+}
+
+.interest-p{
+    width: 325px !important;
+    margin-right: 50px !important;
+}
+
+.register-input-container > div > select{
+    width: 408px;
+    height: 50px;
+    padding: 4px 0 0 18px;
+    border: 2px solid #bfbfbf;
+    display: inline-block;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 16px;
+}
+
+select > option{
+    width: 390px;
+    padding: 8px;
+    margin: 8px;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 16px;
+}
+
+.register-btn-container{
+
+}
+
+.register-btn{
+    background-color: #f47d1c;
+    width: 190px;
+    height: 64px;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    color: white;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.register-btn:active{
+    background-color: #d26810;
+}
+
+.cancle-btn{
+    background-color: #b3b3b3;
+    width: 190px;
+    height: 64px;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.cancle-btn:active{
+    background-color: #a2a2a2;
+}
+
+.force-input{
+    color: #0078E4;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 22px;
+    margin-right: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+}
+
+.email-1{
+    width: 280px !important;
+    margin: 0 0 0 50px !important;
+}
+
+.email-2{
+    width: 280px !important;
+    margin: 0 30px 0 0 !important;
+}
+
+.email-tag{
+    width: 54px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center !important;
+}
+
+.register-footer-container{
+    width:800px;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 111px;
+}
+
+.register-footer-container > div > p{
+    width: 464px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    display: inline-block;
+}
+
+.register-footer-container > div:first-child{
+    margin-bottom: 20px;
+}
+
+.register-footer-container > div > button{
+    width: 320px;
+    height: 60px;
+    background-color: #979797;
+    color: #FEFEFE;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+}
+
+.register-footer-container > div > button:active{
+    background-color: #636363;
+}
+
+.register-footer-sm{
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border-top: 2px solid #e6e6e6;
+  margin-top: 200px;
+}
+
+.register-footer-logo-1{
+    width: 121px;
+    height: 40px;
+    margin-right: 180px;
+}
+
+.register-footer-logo-2{
+    width: 173px;
+    height: 45px;
+    margin-right: 180px;
+}
+
+.register-footer-logo-3{
+    width: 133px;
+    height: 43px;
+    margin-right: 180px;
+}
+
+.register-footer-logo-4{
+    width: 224px;
+    height: 39px;
+}
+
+.register-footer-lg{
+  width: 100%;
+  height: 260px;
+  background-color: #d3d3d3;
+  border-top: 2px solid #c8c8c8;
+}
+
+.register-footer-lg > div{
+    width: 1200px;
+    height: auto;
+}
+
+.register-footer-lg-logo > img{
+    margin: 44px 130px 0 38px;
+    width: 121px;
+    height: 40px;
+}
+
+.register-footer-lg-desc{
+    width: 950px;
+    margin-top: 44px;
+}
+
+.register-footer-lg-desc > a{
+    text-decoration: none;
+    color : black;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 16px;
+}
+
+.register-footer-lg-desc > a:first-child{
+    padding-right: 14px;
+    border-right: 1px solid #7d7d7d;
+}
+
+.register-footer-lg-desc-a2{
+    padding-left: 14px;
+}
+
+.register-footer-lg-desc > p{
+    color : black;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 18px;
+}
+
+.register-footer-lg-desc-p1{
+    margin: 26px 0 0 0;
+}
+
+.register-footer-lg-desc-p4{
+    margin: 26px 0 0 0;
+}
+
+.width-144px{
+    width: 144px !important;
+}

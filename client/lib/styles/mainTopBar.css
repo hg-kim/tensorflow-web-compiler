@@ -1,0 +1,83 @@
+.topbar-border{
+    border-bottom: 2px solid #eee;
+}
+
+.topbar-container{
+  width: 1200px;
+  height: 56px;
+}
+
+.topbar-border{
+    min-width: 1200px;
+    width: 100%;
+    height: 56px;
+    margin: auto !important;
+  background-color: #f7f7f7;
+}
+
+.topbar-img{
+  height: 56px;
+  width: auto;
+  margin: 0 40px 0 30px;
+}
+
+.topbar-desc{
+  height: 56px;
+  width: 988px;
+  font-family: "NanumSquareR";
+  font-size: 16px;
+}
+
+.topbar-desc > .float-right{
+    display: flex;
+    height: 54px;
+}
+
+.topbar-desc > div > a{
+
+}
+
+.topbar-a-active{
+    background-color: #e8e8e8;
+}
+
+.topbar-a{
+    height: 56px;
+    display: inline-block;
+    padding: 18px 0 18px 0 !important;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Dotum";
+    text-decoration: none !important;
+}
+.topbar-register{
+  color : black !important;
+  height: 56px;
+  width: 58px;
+  font-size: 14px;
+  font-family: "Dotum";
+  border-right: 1px solid black;
+  padding: 0 17px 0 17px;
+  text-decoration: none !important;
+}
+
+.topbar-login{
+  color : black !important;
+  height: 56px;
+  width: 42px;
+  font-size: 14px;
+  font-family: "Dotum";
+  border-right: 1px solid black;
+  padding: 0 17px 0 17px;
+  text-decoration: none !important;
+}
+
+.topbar-findIdPw{
+  color : black !important;
+  height: 56px;
+  width: auto;
+  font-size: 14px;
+  font-family: "Dotum";
+  padding: 0 17px 0 17px;
+  text-decoration: none !important;
+}

@@ -1,0 +1,31 @@
+<template name="codeTest">
+    <div class="container-fluid row justify-content-center m-0 p-0">
+        <div class="row codeTest-submenu justify-content-center">
+            <div class="row codeTest-container align-items-center">
+                <p class="codeTest-container-disabled">샘플코드</p>
+                <p> - </p>
+                <p>코드테스트</p>
+            </div>
+        </div>
+        <div class="codeTest-content-container">
+            <div class="codeTest-menu">
+                <div class="codeTest-menu-title w-100 row justify-content-center">
+                    <div class="">
+                        <p>내 파일 목록</p>
+                    </div>
+                    <div class="codeTest-menu-line"></div>
+                </div>
+                <div class="codeTest-menu-desc row m-0 justify-content-center">
+                    <ul>
+                        {{#each userNote in userNotes}}
+                            <li><a href class="js-select" note-id="{{userNote._id}}">{{userNote.title}}</a></li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="codeTest-content">
+                {{>note}}
+            </div>
+        </div>
+    </div>
+</template>

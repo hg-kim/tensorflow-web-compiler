@@ -1,0 +1,118 @@
+.modifyMyInfo-div{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.modifyMyInfo-submenu{
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.modifyMyInfo-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.modifyMyInfo-container > a:hover{
+    color:#FA8C32;
+}
+
+.modifyMyInfo-container{
+    width: 1200px;
+    height: auto;
+    padding-left: 30px;
+    margin : 0 auto 0 auto;
+}
+
+.modifyMyInfo-container > p{
+    margin-bottom: 28px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.modifyMyInfo-panel{
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    border: 2px solid #eee;
+    margin-top: 25px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 25px 25px 25px 25px;
+}
+
+.modifyMyInfo-input-container{
+    margin: 25px 0 25px 0;
+}
+
+.modifyMyInfo-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+    margin: 25px 0 25px 0;
+}
+
+.modifyMyInfo-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #222222;
+    margin-right: 25px;
+    align-self: center;
+}
+
+.modifyMyInfo-form{
+    margin: 0 !important;
+}
+
+.modifyMyInfo-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 25px;
+}
+
+.modifyMyInfo-btn{
+    background-color: #fa8c32;
+    width: 132px;
+    height: 50px;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.modifyMyInfo-btn:hover{
+    background-color: #fa9a4b;
+}
+
+.modifyMyInfo-btn:active{
+    background-color: #cc6510;
+}
+.modifyMyInfo-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+}
+
+.bb-0{
+    border-bottom: 0px !important;
+}

@@ -1,0 +1,173 @@
+.learning-img {
+    width: 1200px;
+    height: 300px;
+    background: url(/images/learningPage/learning/bn_python.png);
+}
+
+.learning-img-container {
+    width: 1200px;
+    margin: 25px auto 0 auto;
+    background-color: #2d2d2d;
+}
+
+.learning-content-container {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border: 2px solid #eee;
+    margin: 20px 0 0 0;
+}
+
+.learning-container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+.learning-menu {
+    width: 286px;
+    float: left;
+    padding: 25px;
+    position: fixed;
+}
+
+.learning-menu-title {
+    padding: 0;
+    margin: 0;
+}
+
+.learning-menu-title>p {
+    color: #4A4A4A;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+}
+
+.learning-menu-line {
+    border-bottom: 2px solid #e8e8e8;
+    margin: 25px 0 25px 0;
+}
+
+.learning-menu-desc-main {
+    color: #4A4A4A;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 20px;
+    margin: 0 -25px 0 -25px;
+    cursor: pointer;
+    line-height: 2;
+    padding: 12.5px 25px;
+    word-break: keep-all;
+}
+
+.learning-menu-desc-main:active {
+    color: #F47D1C;
+    background-color: #eee;
+}
+
+.active{
+    color: #F47D1C;
+    background-color: #eee;
+}
+
+.learning-menu-desc-main:hover {
+    background-color: #eee;
+}
+
+.learning-menu-desc-sub {
+    color: #7D7D7D;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 18px;
+    margin: 0 0 25px 0;
+    cursor: pointer;
+}
+
+.learning-content {
+    width: 910px;
+    float: right;
+    border-left: 2px solid #eee;
+    padding: 0 25px 25px 25px;
+}
+
+.learning-content-title {
+    height: 200px;
+}
+
+.learning-content-title-1 {
+    color: white;
+    font-family: "Dotum";
+    font-size: 36px;
+    width: 864px;
+    margin: 24px 0 25px 0;
+    display: inline-block;
+}
+
+.learning-content-title-2 {
+    color: white;
+    font-family: "Dotum";
+    font-size: 14px;
+    width: 864px;
+    margin: 0;
+    display: inline-block;
+}
+
+.learning-content-title-container{
+    width: 914px;
+    height: 200px;
+    padding: 25px;
+}
+
+.learning-main-img{
+    display: block;
+    margin : auto;
+}
+
+.learning-content-image{
+    width: 286px;
+    height: 200px;
+    display: inline-block;
+}
+
+.learning-menu-line-2 {
+    border-bottom: 2px solid #9e9e9e;
+    margin: 0 25px 0 25px;
+}
+
+.learning-content-desc-title > p {
+    width: 860px;
+    margin: 25px 0 25px 0;
+    color: #222222;
+    font-family: "Dotum";
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.learning-content-desc-video {
+    width: 860px;
+    height: 602px;
+    margin: 50px 36px 50px 36px;
+    color: #222222;
+    font-family: "Dotum";
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.learning-content-desc-text>p {
+    width: 860px;
+    margin: 0;
+    color: #222222;
+    font-family: "Dotum";
+    font-size: 14px;
+}
+
+.learning-content-desc-code {
+    width: 860px;
+    height: 516px;
+    margin: 22px 36px 40px 36px;
+    color: #222222;
+    font-family: "Dotum";
+    font-size: 16px;
+    background-color: rgb(156, 156, 156);
+}

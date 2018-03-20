@@ -1,0 +1,255 @@
+.login-container{
+    width: 1200px;
+    margin: 25px auto 0 auto ;
+    height: auto;
+}
+
+.login-title{
+    margin : 70px 0 28px 34px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.login-panel{
+    width: 1200px;
+    height: auto;
+    min-width: 540px;
+    background: white;
+    border: 2px solid #eee;
+    padding: 25px;
+}
+
+.login-header{
+    width: 1140px;
+    height: auto;
+}
+
+.login-img{
+    height: 250px;
+    width: 300px;
+    margin-right: 25px;
+}
+
+.login-header-text-desc{
+    width: 450px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 18px;
+    color: #525252;
+}
+
+.login-img-container-div{
+    margin-left: 25px;
+    width: 450px !important;
+}
+
+.login-desc{
+  width: 400px;
+  font-family: "NanumSquareB";
+  src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+  font-size: 22px;
+  color: #525252;
+  margin: 0;
+}
+
+.login-body{
+    width: 1140px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    margin: 25px 0 25px 0;
+}
+
+.login-body-content{
+    width: auto;
+    min-width: 540px;
+    height: auto;
+    margin: 25px 0 25px 0;
+}
+
+.padding-0{
+    padding : 0 !important;
+}
+
+.login-input-container{
+    width:580px;
+    height: auto;
+}
+
+.login-input-container > div > p{
+    width: 132px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+    display: inline-block;
+}
+
+.login-input-container > div:first-child {
+    margin-bottom: 25px;
+}
+
+.login-input-container > div > input{
+    width: 400px;
+    height: 50px;
+    padding: 4px 0 0 18px;
+    border: 2px solid #bfbfbf;
+    display: inline-block;
+}
+
+.login-input-container > div > input:focus{
+    border: 2px solid #f47d1c;
+}
+
+.login-btn{
+    background-color: #fa8c32;
+    width: 170px;
+    height: 130px;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    color: white;
+}
+
+.login-btn:active{
+    background-color: #d26810;
+}
+
+.login-footer-container{
+    width:800px;
+    height: auto;
+    margin: 0;
+}
+
+.login-footer-container > div > p{
+    width: 464px;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+    display: inline-block;
+}
+
+.login-footer-container > div:first-child{
+    margin-bottom: 25px;
+}
+
+.login-footer-container > div > button{
+    width: 320px;
+    height: 60px;
+    background-color: #979797;
+    color: #FEFEFE;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+    display: inline-block;
+    border: none;
+}
+
+.login-footer-container > div > button:active{
+    background-color: #636363;
+}
+
+.login-footer-sm{
+  width: 100%;
+  min-width: 1200px;
+  height: 96px;
+  background-color: white;
+  border-top: 2px solid #e6e6e6;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.login-footer-logo{
+    width: 968px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.login-footer-logo-1{
+    width: 96px;
+    height: 32px;
+    margin-right: 144px;
+}
+
+.login-footer-logo-2{
+    width: 139px;
+    height: 37px;
+    margin-right: 144px;
+}
+
+.login-footer-logo-3{
+    width: 106px;
+    height: 34px;
+    margin-right: 144px;
+}
+
+.login-footer-logo-4{
+    width: 180px;
+    height: 32px;
+}
+
+.login-footer-lg{
+    margin: auto !important;
+  width: 100%;
+  min-width: 1200px;
+  height: 208px;
+  background-color: #d3d3d3;
+  border-top: 2px solid #c8c8c8;
+}
+
+.login-footer-lg > div{
+    margin: auto !important;
+    width: 968px;
+    height: 208px;
+}
+
+.login-footer-lg-logo > img{
+    margin: 24px 104px 0 34px;
+    width: 97px;
+    height: 32px;
+}
+
+.login-footer-lg-desc{
+    width: 968px;
+    margin-top: 24px;
+}
+
+.login-footer-lg-desc > a{
+    text-decoration: none;
+    color : black;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 14px;
+}
+
+.login-footer-lg-desc > a:first-child{
+    padding-right: 11px;
+    border-right: 1px solid #7d7d7d;
+}
+
+.login-footer-lg-desc-a2{
+    padding-left: 11px;
+}
+
+.login-footer-lg-desc > p{
+    color : black;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: right;
+}
+
+.login-footer-lg-desc-p1{
+    margin: 0;
+}
+
+.login-footer-lg-desc-p4{
+    margin: 21px 0 0 0;
+}

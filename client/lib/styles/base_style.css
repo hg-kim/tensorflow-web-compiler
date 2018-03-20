@@ -1,0 +1,107 @@
+/*  fonts */
+@font-face {
+    font-family: 'GyeonggiTitleVOTF_Bold'; src: url("resources/fonts/GyeonggiTitleVOTF_Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'GyeonggiTitleVOTF_Bold'; src: url("resources/fonts/GyeonggiTitleVOTF_Bold.otf");
+}
+@font-face {
+    font-family: 'GyeonggiTitleVOTF_Bold'; src: url("resources/fonts/GyeonggiTitleVOTF_Bold.woff");
+}
+@font-face {
+    font-family: 'NanumSquareR'; src: url("resources/fonts/NanumSquareR.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareR'; src: url("resources/fonts/NanumSquareR.eot");
+}
+@font-face {
+    font-family: 'NanumSquareB'; src: url("resources/fonts/NanumSquareB.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareB'; src: url("resources/fonts/NanumSquareB.eot");
+}
+
+/* */
+body {
+    background: #f7f7f7 !important;
+}
+
+button {
+  cursor:pointer;
+}
+
+.padding-0{
+    padding:0 !important;
+}
+
+.margin-0{
+    margin: 0 !important;
+}
+
+.padding-4{
+    padding: 4px;
+}
+
+.padding-8{
+    padding: 8px;
+}
+
+.padding-16{
+    padding: 16px;
+}
+
+.margin-4{
+    margin: 4px;
+}
+
+.margin-8{
+    margin: 8px;
+}
+
+.margin-16{
+    margin: 16px;
+}
+
+.width-100{
+    width:100% !important;
+}
+
+.height-100{
+    height:100% !important;
+}
+
+.margin-bottom-16px{
+    margin-bottom: 16px !important;
+}
+
+.margin-top-16px{
+    margin-top : 16px !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.text-lg{
+    font-size: 1.5em;
+}
+
+.text-md{
+    font-size: 1.2em;
+}
+
+.text-sm{
+    font-size: 1em;
+}
+
+.text-xs{
+    font-size: 0.8em;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.color-white{
+    color:white !important;
+}

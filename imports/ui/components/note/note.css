@@ -1,0 +1,121 @@
+.console {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #00ff00;
+    padding: 8px;
+    font-family: 'courier new';
+    width: 100%;
+    height: 15rem;
+    margin-bottom: -7px;
+}
+
+.btn-group{
+    width: 100%;
+    background: #a8a8a8;
+}
+
+.btn-group button{
+    margin: 8px 0 8px 8px;
+    border: none;
+    color:white;
+}
+
+.custom-btn-blue{
+    background: url("/images/sampleCodePage/codeTest/btn_save.png");
+    width: 144px;
+    height: 30px;
+}
+
+.custom-btn-blue:hover{
+    background: url("/images/sampleCodePage/codeTest/btn_save_on.png");
+}
+
+.custom-btn-grey{
+    background: url("/images/sampleCodePage/codeTest/btn_reset.png");
+    width: 102px;
+    height: 30px;
+}
+
+.custom-btn-grey:hover{
+    background: url("/images/sampleCodePage/codeTest/btn_reset_on.png");
+}
+
+.file-menu{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.file-container{
+    padding-left: 3px;
+    background: #a8a8a8;
+    height: 42px;
+    width: max-content;
+    min-width: 908px;
+}
+
+.file-name{
+    width: 144px;
+    height: 36px;
+    background-color: #d0d0d0;
+    font-family: "Dotum Regular";
+    src: url("/resources/fonts/Dotum Regular.ttf") format("truetype");
+    font-size: 14px;
+    color: #616161;
+    border : none;
+    margin-right: -17px;
+    cursor: pointer;
+}
+
+.file-plus{
+    width: 36px;
+    height: 36px;
+    background-color: #d0d0d0;
+    font-family: "Dotum Regular";
+    src: url("/resources/fonts/Dotum Regular.ttf") format("truetype");
+    font-size: 20px;
+    color: #616161;
+    border : none;
+    padding: 8px !important;
+    font-weight: bold;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.file-name-selected{
+    background: #eee !important;
+    font-weight: bold !important;
+    color: #0A0A0A !important;
+}
+
+.codeTest-menu-desc{
+
+}
+
+.js-select{
+    color: black;
+    text-decoration: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 18px;
+    width: 100%;
+    padding: 0 0 8px 0;
+}
+
+
+.file-container2{
+    padding-left: 3px;
+    background: #a8a8a8;
+    height: 42px;
+    width: max-content;
+    min-width: 858px;
+}
+
+.remove-file{
+    position: relative;
+    width: 17px;
+    height: 17px;
+    left: -11px;
+    top: -2px;
+    cursor: pointer;
+    opacity: 0;
+}

@@ -1,0 +1,50 @@
+<template name="note">
+    <div class="codeTest-div">
+        <div class="row m-0 classList-submenu justify-content-center">
+            <div class="row classList-container align-items-center">
+                <span class="classList-container-disabled menu-a submenu-fixing">샘플코드</span>
+                <span class=" submenu-fixing"> - </span>
+                <span class="menu-a submenu-fixing">코드테스트</span>
+            </div>
+        </div>
+        <div class="codeTest-content-container">
+            <div class="codeTest-menu">
+                <div class="codeTest-menu-title w-100 row justify-content-center">
+                    <div class="">
+                        <p>내 파일 목록</p>
+                    </div>
+                    <div class="codeTest-menu-line"></div>
+                </div>
+                <div class="codeTest-menu-desc row m-0">
+                    {{#each userNote in userNotes}}
+                        <a href class="js-select" note-id="{{userNote._id}}">{{userNote.title}}</a>
+                    {{/each}}
+                </div>
+            </div>
+            <div class="codeTest-content">
+                <div class="file-menu">
+                    <div class="file-container row m-0 align-items-center">
+                        <div class="files" idx="1" >
+                            <input type="text" class="file-name" idx="1" name="title">
+                            <img src="images/account/login/close.svg" alt="" idx="1"  class="remove-file">
+                        </div>
+                        <input type="text" class="file-plus text-center" value="+" readonly>
+                    </div>
+                </div>
+
+                <textarea id="editor"></textarea>
+
+                <div class="btn-group">
+                    <button class="js-save custom-btn-blue" {{disabledWhenRunning}}>저장</button>
+                    <button class="js-run custom-btn-blue" {{disabledWhenRunning}}>실행</button>
+                    <button class="js-clear custom-btn-grey">Clear</button>
+                </div>
+
+                <div>
+                    <textarea class="console" spellcheck="false" readonly>{{#unless $eq note.status 'running'}} {{note.result}} {{/unless}}</textarea>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

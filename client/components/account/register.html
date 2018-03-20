@@ -1,0 +1,127 @@
+<template name="register">
+    <div class="row m-0 classList-submenu justify-content-center">
+        <div class="row classList-container align-items-center">
+            <span class="menu-a submenu-fixing">회원가입</span>
+        </div>
+    </div>
+    <div class="register-div">
+        <div class="register-container row margin-0">
+            <div class="register-panel row margin-0 justify-content-center">
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <span>*표시가 있는 항목은 반드시 입력해주세요.</span>
+                            <div class="">
+                                <p class="">아이디</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="registerEmail" value="" class=""><br />
+                                <p class="register-desc">※이메일 형식으로 입력해주세요.</p>
+                            </div>
+                            <div class="">
+                                <p class="">비밀번호</p>
+                                <span class="force-input">*</span>
+                                <input type="password" name="registerPassword" value="" class=""><br />
+                                <p class="register-desc">※비밀번호는 영문자, 숫자 조합으로 8~15자리로 입력해주세요. 특수문자 가능</p>
+                            </div>
+                            <div class="">
+                                <p class="">비밀번호 확인</p>
+                                <span class="force-input">*</span>
+                                <input type="password" name="registerPasswordRepeat" value="" class=""><br />
+                                <p class="register-desc">※비밀번호를 다시 한번 입력해주세요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <div class="">
+                                <p class="">이름</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="name" value="" class="">
+                            </div>
+                            <div class="register-gender-container align-items-center">
+                                <p class="regsiter-gender-postion">성별</p>
+                                <span class="force-input regsiter-gender-force-postion">*</span>
+                                <input type="radio" name="gender" value="남성" id="c1" class="register-radio-1"><label for="c1">남성</label>
+                                <input type="radio" name="gender" value="여성" id="c2" class="register-radio-2"><label for="c2">여성</label>
+                            </div>
+                            <div class="">
+                                <p class="">생년월일</p>
+                                <span class="force-input">*</span>
+                                <input type="text" name="birth" value="" id="sandbox-container">
+                            </div>
+                            <script>
+                            </script>
+                            <div class="">
+                                <p class="">휴대전화번호</p>
+                                <span class="force-input">*</span>
+                                <select class="findID-hp-1 select-3" name="findID-hp-1">
+                                    <option value="010">010</option>
+                                    <option value="011">011</option>
+                                    <option value="016">016</option>
+                                    <option value="017">017</option>
+                                    <option value="018">018</option>
+                                    <option value="019">019</option>
+                                </select>
+                                <p class="findID-date-text ml-10px">-</p>
+                                <input type="text" name="" value="" class="findID-hp-2 select-3">
+                                <p class="findID-date-text ml-10px">-</p>
+                                <input type="text" name="" value="" class="findID-hp-3 select-3">
+                            </div>
+                            <div class="register-gender-container align-items-center mb-50px">
+                                <p class="regsiter-gender-postion">휴대전화 수신여부</p>
+                                <span class="force-input regsiter-gender-force-postion">*</span>
+                                <input type="radio" name="hp-ad" value="예" id="c3" class="register-radio-1"><label for="c3">예</label>
+                                <input type="radio" name="hp-ad" value="아니오" id="c4" class="register-radio-2"><label for="c4">아니오</label><br />
+                                <p class="register-desc-2">※수신거부 설정시에도 학습관련 내용은 수신될 수 있습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-body-content row margin-0">
+                        <div class="register-input-container">
+                            <div class="">
+                                <p class="interest-p">관심분야 1순위</p>
+                                <select class="" name="interest-1">
+                                    <option value="기계">기계</option>
+                                    <option value="전기전자">전기전자</option>
+                                    <option value="메카트로닉스">메카트로닉스</option>
+                                    <option value="정보통신">정보통신</option>
+                                    <option value="디자인콘텐츠">디자인콘텐츠</option>
+                                    <option value="건축설계">건축설계</option>
+                                    <option value="재료">재료</option>
+                                    <option value="화학">화학</option>
+                                    <option value="직업기초">직업기초</option>
+                                    <option value="공통과정">공통과정</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <p class="interest-p">관심분야 2순위</p>
+                                <select class="" name="interest-2">
+                                    <option value="기계">기계</option>
+                                    <option value="전기전자">전기전자</option>
+                                    <option value="메카트로닉스">메카트로닉스</option>
+                                    <option value="정보통신">정보통신</option>
+                                    <option value="디자인콘텐츠">디자인콘텐츠</option>
+                                    <option value="건축설계">건축설계</option>
+                                    <option value="재료">재료</option>
+                                    <option value="화학">화학</option>
+                                    <option value="직업기초">직업기초</option>
+                                    <option value="공통과정">공통과정</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-0 justify-content-center  align-items-center register-body">
+                    <div class="register-btn-container">
+                        <input type="button" name="" value="회원가입" class="register-btn p-0">
+                        <input type="button" name="" value="취소" class="cancle-btn p-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

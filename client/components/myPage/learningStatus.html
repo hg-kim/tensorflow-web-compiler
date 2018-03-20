@@ -1,0 +1,79 @@
+<template name="learningStatus">
+    <div class="learningStatus-div">
+        <div class="learningStatus-submenu justify-content-center">
+            <div class="modifyMyInfo-container align-items-center">
+                <a href="learningStatus" class="actived-nav menu-a menu-a-active submenu-fixing">나의 강의실</a>
+                <a href="modifyMyInfo" class=" menu-a submenu-fixing">개인정보수정</a>
+                <a href="modifyPW" class=" menu-a submenu-fixing">비밀번호 변경</a>
+            </div>
+        </div>
+        <div class="learningStatus-container">
+            <p>학습 중인 과정</p>
+        </div>
+        <div class="learningStatus-panel p-0">
+            <!-- <div class="empty-list row m-0 justify-content-center align-items-center">
+                <img src="images/myPage/learningStatus/img_표시할항목.png" alt="">
+            </div> -->
+            <table class="w-100 h-100">
+                <tr>
+                    <td class="learningStatus-td-1"><p>번호</p></td>
+                    <td class="learningStatus-td-2"><p>과정명</p></td>
+                    <td class="learningStatus-td-3"><p>학습기간</p></td>
+                    <td class="learningStatus-td-4"><p>남은학습일</p></td>
+                    <td class="learningStatus-td-5"><p>진도율</p></td>
+                    <td class="learningStatus-td-6"><p>수강취소</p></td>
+                    <td class="learningStatus-td-7"><p>학습하기</p></td>
+                </tr>
+                {{#each row in userClass}}
+                <tr>
+                    <td class="learningStatus-td-sub-1 sub-td"><p>{{incremented @index}}</p></td>
+                    <td class="learningStatus-td-sub-2 sub-td"><p>{{row.className}}</p></td>
+                    <td class="learningStatus-td-sub-3 sub-td"><p>{{getDate row.start}}~{{getDate row.end}}</p></td>
+                    <td class="learningStatus-td-sub-4 sub-td"><p>{{getLast row.end}}</p></td>
+                    <td class="learningStatus-td-sub-5 sub-td"><p>{{getStatus row.end row.classDate}}</p></td>
+                    <td class="learningStatus-td-sub-6 sub-td"><p class="cancle-learning" value="{{row._id}}">수강취소</p></td>
+                    <td class="learningStatus-td-sub-7 sub-td"><img src="images/myPage/learningStatus/btn_학습하기.png" alt="" class="do-learning-btn" value="{{row.classId}}"></td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+
+        <div class="paging-menu row justify-content-center">
+            {{#each row in userClassCount}}
+                <button type="button" name="button" class="paging-button btn-class" value="{{row}}">{{row}}</button>
+            {{/each}}
+        </div>
+
+        <div class="learningStatus-container">
+            <p>학습 완료된 과정(복습가능)</p>
+        </div>
+        <div class="learningStatus-panel p-0">
+            <table class="w-100 h-100">
+                <tr>
+                    <td class="learningStatus-td-1-v2"><p>번호</p></td>
+                    <td class="learningStatus-td-2-v2"><p>과정명</p></td>
+                    <td class="learningStatus-td-3-v2"><p>학습기간</p></td>
+                    <td class="learningStatus-td-4-v2"><p>남은학습일</p></td>
+                    <td class="learningStatus-td-5-v2"><p>진도율</p></td>
+                    <td class="learningStatus-td-7-v2"><p>학습하기</p></td>
+                </tr>
+                {{#each row in expiredUserClass}}
+                <tr>
+                    <td class="learningStatus-td-sub-1-v2 sub-td"><p>{{incremented @index}}</p></td>
+                    <td class="learningStatus-td-sub-2-v2 sub-td"><p>{{row.className}}</p></td>
+                    <td class="learningStatus-td-sub-3-v2 sub-td"><p>{{getDate row.start}}~{{getDate row.end}}</p></td>
+                    <td class="learningStatus-td-sub-4-v2 sub-td"><p>{{getLast row.end}}</p></td>
+                    <td class="learningStatus-td-sub-5-v2 sub-td"><p>{{getStatus row.end row.classDate}}</p></td>
+                    <td class="learningStatus-td-sub-7-v2 sub-td"><img src="images/myPage/learningStatus/btn_학습하기.png" alt="" class="do-learning-btn" value="{{row.classId}}"></td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+
+        <div class="paging-menu row justify-content-center">
+            {{#each row in expiredUserClassCount}}
+                <button type="button" name="button" class="paging-button btn-eclass" value="{{row}}">{{row}}</button>
+            {{/each}}
+        </div>
+    </div>
+</template>

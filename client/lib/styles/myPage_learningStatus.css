@@ -1,0 +1,464 @@
+.learningStatus-div{
+    width: 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.learningStatus-submenu{
+    width: 100%;
+    min-width: 1200px;
+    height: 80px;
+    background-color: #325682;
+    color: #FFFFFF;
+    border-top: 2px solid #b8b8b8;
+    border-bottom: 2px solid #b8b8b8;
+    margin-bottom: 25px;
+    margin: auto;
+}
+
+.learningStatus-container > a{
+    color: #FFFFFF;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.learningStatus-container > a:hover{
+    color:#FA8C32;
+}
+
+.learningStatus-container{
+    width: 1200px;
+    height: auto;
+    padding-left: 30px;
+    margin : 0 auto 0 auto;
+}
+
+.learningStatus-container > p{
+    margin: 25px 0 25px 0;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.learningStatus-panel{
+    width: 1200px;
+    height: 338px;
+    background-color: white;
+    margin: auto;
+    border: 2px solid #e8e8e8;
+}
+
+.learningStatus-panel table tr{
+    padding: 0;
+    display: inherit;
+    height: 56px !important;
+}
+
+.learningStatus-panel table tr td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.learningStatus-panel table tr td p{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 22px;
+    color: #525252;
+    line-height: 1;
+    text-align: center;
+    margin: 0
+}
+
+.learningStatus-panel table tr .sub-td p{
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 14px;
+    color: #707070;
+    line-height: 1;
+    text-align: center;
+    margin: 0
+}
+
+.learningStatus-td-1{
+    width: 72px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-2{
+    width: 300px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f4f4f4;
+}
+
+.learningStatus-td-3{
+    width: 219px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-4{
+    width: 148px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f4f4f4;
+}
+
+.learningStatus-td-5{
+    width: 109px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-6{
+    width: 156px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f4f4f4;
+}
+
+.learningStatus-td-7{
+    width: 200px;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-8{
+    width: 106px;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f4f4f4;
+}
+
+.learningStatus-td-sub-1{
+    width: 72px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-2{
+    width: 300px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #fafafa;
+}
+
+.learningStatus-td-sub-3{
+    width: 219px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-4{
+    width: 148px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #fafafa;
+}
+
+.learningStatus-td-sub-5{
+    width: 109px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-6{
+    width: 156px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #fafafa;
+}
+
+.learningStatus-td-sub-7{
+    width: 199px;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-8{
+    width: 106px;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #fafafa;
+}
+
+.empty-list{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.cancle-learning{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cancle-learning:active{
+    color: #FA8C32 !important;
+}
+
+.do-learning-btn{
+    width: 0px;
+    height: 0px;
+    padding: 0 144px 40px 0;
+    background: url("images/myPage/learningStatus/btn_학습하기.png");
+    cursor: pointer;
+}
+
+.do-learning-btn:active{
+    background: url("images/myPage/learningStatus/btn_학습하기_on.png");
+}
+
+.print-btn{
+    width: 0px;
+    height: 0px;
+    padding: 0 36px 35px 0;
+    background: url("images/myPage/learningStatus/btn_print.png");
+    cursor: pointer;
+}
+
+.print-btn:active{
+    background: url("images/myPage/learningStatus/btn_print_on.png");
+}
+
+.learningStatus-img-container{
+    width: 800px;
+    height: auto;
+}
+
+.learningStatus-img-container > div{
+    margin-left: 50px;
+    width: 400px;
+}
+
+.learningStatus-header-text-title{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.learningStatus-header-text-desc{
+    width: 400px;
+    display: inline-block;
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 16px;
+    color: #525252;
+}
+
+.learningStatus-img{
+    display: inline;
+    width: 300px;
+    height: 250px;
+}
+
+.learningStatus-desc-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #525252;
+}
+
+.learningStatus-pwd-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 24px;
+    color: #222222;
+    margin : 0 70px 0 -40px;
+    width: 192px;
+    text-align: right;
+}
+
+.learningStatus-pwd-sub-text{
+    font-family: "NanumSquareB";
+    src: url("/resources/fonts/NanumSquareB.ttf") format("truetype");
+    font-size: 18px;
+    color: #adadad;
+    margin : 0 70px 0 222px;
+    width: auto;
+    text-align: right;
+}
+
+.learningStatus-form{
+    width: 1300px;
+    height: auto;
+    padding: 130px 0 44px 0;
+    border-bottom: 2px solid #eee;
+}
+
+.learningStatus-pwd{
+    width: 408px;
+    height: 50px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+}
+
+.learningStatus-btn-container{
+    width: 800px;
+}
+
+.learningStatus-btn-1{
+    background-color: #fa8c32;
+    width: 190px;
+    height: 64px;
+    margin : 76px 30px  136px 0;
+    color: #FEFEFE;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.learningStatus-btn-1:hover{
+    background-color: #fa9a4b;
+}
+
+.learningStatus-btn-1:active{
+    background-color: #cc6510;
+}
+
+.learningStatus-btn-2{
+    background-color: #acacac;
+    width: 190px;
+    height: 64px;
+    color: #FEFEFE;
+    margin : 76px 0 136px 0;
+    border: none;
+    font-family: "NanumSquareR";
+    src: url("/resources/fonts/NanumSquareR.ttf") format("truetype");
+    font-size: 24px;
+}
+
+.learningStatus-btn-2:hover{
+    background-color: #c3c3c3;
+}
+
+.learningStatus-btn-2:active{
+    background-color: #a4a4a4;
+}
+
+.learningStatus-footer{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-top: 2px solid #eee;
+  margin-top: 200px;
+}
+
+.learningStatus-row{
+    width: 1360px;
+}
+
+.learningStatus-sub-row{
+    width: 1360px;
+    margin: 28px 0 30px 0;
+}
+
+.paging-menu{
+    width: 1200px;
+    height: auto;
+    margin: 25px auto 25px auto !important;
+}
+
+.paging-button{
+    margin-right: 25px;
+    border: 1px solid #acacac !important;
+    padding: 8px 16px;
+    background: #c3c3c3;
+    color: white;
+}
+
+.learningStatus-td-1-v2{
+    width: 72px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-2-v2{
+    width: 350px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f4f4f4;
+}
+
+.learningStatus-td-3-v2{
+    width: 249px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-4-v2{
+    width: 178px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f4f4f4;
+}
+
+.learningStatus-td-5-v2{
+    width: 129px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-7-v2{
+    width: 218px;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #f9f9f9;
+}
+
+.learningStatus-td-sub-1-v2{
+    width: 72px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-2-v2{
+    width: 350px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #fafafa;
+}
+
+.learningStatus-td-sub-3-v2{
+    width: 249px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-4-v2{
+    width: 178px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #fafafa;
+}
+
+.learningStatus-td-sub-5-v2{
+    width: 129px;
+    border-right: 2px solid #e8e8e8;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.learningStatus-td-sub-7-v2{
+    width: 218px;
+    border-bottom:2px solid #e8e8e8;
+    background-color: #ffffff;
+}
